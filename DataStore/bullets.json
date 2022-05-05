@@ -1,0 +1,12 @@
+[
+    {
+        "bullet_id":1,
+        "object_name":"Bullet_1",
+        "name":"First Ball"
+    },
+    {
+        "bullet_id":2,
+        "object_name":"Bullet_2",
+        "name":"Diamond Ball"
+    }
+]

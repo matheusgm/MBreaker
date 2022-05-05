@@ -1,0 +1,10 @@
+[gd_resource type="DynamicFont" load_steps=2 format=2]
+
+[ext_resource path="res://Fonts/MochiyPopPOne-Regular.ttf" type="DynamicFontData" id=1]
+
+[resource]
+size = 80
+outline_size = 8
+outline_color = Color( 0.835294, 0.823529, 0.054902, 0.784314 )
+extra_spacing_char = 15
+font_data = ExtResource( 1 )

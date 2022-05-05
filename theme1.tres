@@ -1,0 +1,23 @@
+[gd_resource type="Theme" load_steps=7 format=2]
+
+[ext_resource path="res://Fonts/Roboto-Black.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Theme1 Saves/button_pressed_styleboxflat.tres" type="StyleBox" id=2]
+[ext_resource path="res://Theme1 Saves/button_hover_styleboxflat.tres" type="StyleBox" id=3]
+[ext_resource path="res://Theme1 Saves/button_styleboxflat.tres" type="StyleBox" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 25
+outline_size = 2
+outline_color = Color( 0.372549, 0.541176, 0.0313726, 0.784314 )
+extra_spacing_char = 4
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxEmpty" id=2]
+
+[resource]
+Button/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
+Button/fonts/font = SubResource( 1 )
+Button/styles/focus = SubResource( 2 )
+Button/styles/hover = ExtResource( 3 )
+Button/styles/normal = ExtResource( 4 )
+Button/styles/pressed = ExtResource( 2 )

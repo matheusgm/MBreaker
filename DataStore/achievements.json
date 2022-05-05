@@ -1,0 +1,41 @@
+[
+    {
+        "achievement_id":1,
+        "name":"10+",
+        "description":"Reach level 10 !",
+        "reward":{
+            "bullet_id":2
+        },
+        "goal":{
+                "name":"top_level",
+                "value":10
+            }
+        
+    },
+    {
+        "achievement_id":2,
+        "name":"50+",
+        "description":"Reach level 50 !",
+        "reward":{
+
+        },
+        "goal":{
+                "name":"top_level",
+                "value":50
+            }
+        
+    },
+    {
+        "achievement_id":3,
+        "name":"1000 Blocks",
+        "description":"Destroy 1000 blocks !",
+        "reward":{
+
+        },
+        "goal":{
+                "name":"blocks_destroyed",
+                "value":1000
+            }
+        
+    }
+]
