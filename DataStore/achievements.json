@@ -4,7 +4,7 @@
         "name":"10+",
         "description":"Reach level 10 !",
         "reward":{
-            "bullet_id":2
+            "bullet_id":1
         },
         "goal":{
                 "name":"top_level",
@@ -30,7 +30,7 @@
         "name":"1000 Blocks",
         "description":"Destroy 1000 blocks !",
         "reward":{
-
+            "bullet_id":2
         },
         "goal":{
                 "name":"blocks_destroyed",
